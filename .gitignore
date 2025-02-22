@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+myenv/
+venv/
+ENV/
+env/
+myvenv/
+
+# Django stuff:
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Media and static files
+/media/
+staticfiles/
+
+# Local environment variables
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Testing artifacts
+.pytest_cache/
+test-results/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# PIP file artifacts (if applicable)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations (optional, but generally should be committed)
+#migrations/
+
+# Celery beat schedule file (if using Celery)
+celerybeat-schedule
+
+# Gunicorn logs (if using Gunicorn)
+gunicorn-error.log
+
+# Local settings (if applicable)
+local_settings.py
+
